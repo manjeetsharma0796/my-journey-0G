@@ -1,0 +1,5 @@
+.env
+node_modules
+TODO
+go.mod 
+go.sum
