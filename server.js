@@ -6,7 +6,7 @@ const path = require("path");
 const __path = path.resolve("public");
 const app = express();
 
-const goScript = path.join(__dirname, 'ma.go');
+const goScript = path.join(__dirname, 'main.go');
 const command = `go run ${goScript}`;
 
 

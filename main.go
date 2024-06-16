@@ -93,7 +93,7 @@ func main() {
 	}
 
 	fmt.Println(status)
-	appendToFile("status.txt", status)
+	// appendToFile("status.txt", status)
 
 	uploadFile(client)
 }
